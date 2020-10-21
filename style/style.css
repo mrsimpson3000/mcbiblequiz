@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: #f8fffa;
+}
+
+a,
+p,
+li {
+  font-family: "Nunito Sans", sans-serif;
+  color: #f8fffa;
+}
+
+nav {
+  background-color: #071734;
+  color: #f8fffa;
+}
+
+.hidden {
+  display: none;
+}
+
+.covid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 20px; */
+  color: #f8fffa;
+}
+
+.covid .button {
+  background-color: #f7ce3e;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: #071734;
+}
+
+.hero-section {
+  background-image: url(/images/quote-off-finals.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-wrapper {
+  /* margin-top: 2.8%; */
+  height: 100vh;
+  /* background-color: #f7ce3e; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding-top: 200px; */
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action h1,
+p {
+  color: #f8fffa;
+}
+
+.call-to-action h1 {
+  font-size: 24px;
+}
+
+.call-to-action p {
+  font-size: 42px;
+}
+
+.covid {
+  height: 200px;
+}
